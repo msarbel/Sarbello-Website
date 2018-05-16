@@ -6,9 +6,13 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  color: #BFC7CB;
+  color: #E0D4D4;
   margin: 0px;
   padding: 0px;
+}
+
+.about-img img {
+   border-radius: 50%;
 }
 
 .navbar {
@@ -67,6 +71,10 @@ html, body {
 .jumbotron {
   padding: 1rem;
   border-radius: 0;
+}
+
+.indent {
+  padding-left: 19px;
 }
 
 .padding {
@@ -135,13 +143,13 @@ html, body {
   font-size: 4.5em;
   padding: 3rem;
 }
-.fa-facebook {
+.fa-linkedin {
   color: #3b5998;
 }
-.fa-twitter {
+.fa-github {
   color: #00aced;
 }
-.fa-google-plus-g {
+.fa-envelope-open {
   color: #dd4b39;
 }
 .fa-instagram {
@@ -387,6 +395,8 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+
+
 
 
 
