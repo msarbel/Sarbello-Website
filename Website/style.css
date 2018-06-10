@@ -139,30 +139,56 @@ html, body {
 
 /*social media*/
 
-.social a {
-  font-size: 4.5em;
-  padding: 3rem;
+.grid {
+   display: grid;
+   grid-gap: 10px;
+   grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+   grid-auto-rows: 40px;
 }
-.fa-linkedin {
-  color: #3b5998;
+
+.item {
+  background-color: #ffffff;
 }
-.fa-github {
-  color: #00aced;
+
+.photothumb{
+  width: 100%;
 }
-.fa-envelope-open {
-  color: #dd4b39;
+
+.title {
+  padding: 20px;
+ }
+
+.title h3{
+  font-size: 1.2em;
+  color: #ffffff;
+  text-transform: uppercase;
 }
-.fa-instagram {
-  color: #517fa8;
+
+.project .title{
+  background-color: #607D8B;
 }
-.fa-youtube {
-  color: #bb0000;
+
+.blog .title{
+  background-color: #ff9800;
 }
-.fa-facebook:hover, .fa-twitter:hover, 
-.fa-google-plus-g:hover, .fa-instagram:hover, 
-.fa-youtube:hover {
-  color: #d5d5d5;
-} 
+
+.photo .title{
+  background-color: #f44336;
+}
+
+.desc{
+  padding: 10px 10px 5px 10px;
+}
+
+.desc img{
+  width: 50%;
+  margin: 0 10px 10px 0;
+  float: left;
+}
+
+.desc p{
+  margin-bottom: 10px;
+}
 
 /* FOOTER */
 
